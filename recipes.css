@@ -1,0 +1,66 @@
+.navbar {
+  background-color: orangered;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 32px;
+  font-size: 34px;
+}
+.addpage {
+  display: flex;
+}
+#back {
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+}
+.add-recipe {
+  padding: 5px;
+}
+.adding {
+  padding: 20px;
+}
+.ingredeints {
+  padding: 16px;
+}
+.footer {
+  background-color: black;
+  height: 50px;
+}
+.text {
+  color: #fff;
+  text-align: center;
+}
+.adding {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: orangered;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
