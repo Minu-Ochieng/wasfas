@@ -1,0 +1,80 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  header {
+    background-color: orange;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  .getstarted{
+    background-color: orange;
+    padding: 14px 31px;
+    border-radius: 12px;
+    margin-top: 16%;
+  }
+  .land{
+    margin-left: 12%;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .landingpage img{
+    border-radius: 45%;
+    height: 74%;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 12%;
+  }
+  nav a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  .home{
+    color: white;
+  }
+  .bigtext{
+    color: white;
+    font-size: 235%;
+  }
+  .wasfa{
+    color: orange;
+  }
+  .text{
+    color: white;
+  }
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  #home{
+    margin-top: 15%;
+  }
+  .land{
+    display: flex;
+    gap: 10%;
+  }

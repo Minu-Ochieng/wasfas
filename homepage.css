@@ -1,0 +1,118 @@
+header {
+    background-color: orange;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .land{
+    margin-left: 12%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .landingpage img{
+    border-radius: 45%;
+    height: 74%;
+  }
+  
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 12%;
+  }
+  nav a{
+    color: white;
+    text-decoration: none;
+  }
+  .firstheader{
+    font-size: 245%;
+    line-height: 85%;
+    font-size: 185%;
+    color: orange;
+  }
+  .firstheaderr{
+    margin-left: 12%;
+    display: flex;
+    gap: 24%;
+    /* margin-top: %; */
+  }
+  .cate img{
+   border-radius: 265%;
+   
+  }
+  .afterfirstheader{
+    line-height: 192%;
+    margin-top: 3%;
+  }
+  .animatedchef img{
+    width: 98%;
+    height: 54%;
+  }
+  .cuisines{
+    color: orange;
+    text-align: center;
+    font-size: 434%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .marquee {
+  /*   overflow: hidden; */
+  }
+  
+  .marquee-content {
+    display: flex;
+    animation: scrolling 10s linear infinite;
+  }
+  .marquee-item img{
+    width: 45%;
+    border-radius: 135%;
+  }
+  
+  .marquee-item {
+    flex: 0 0 16vw;
+    margin: 0 1vw;
+  /*   flex: 0 0 20vw; */
+  /*   margin: 0 2vw; */
+  }
+  
+  .marquee-item img {
+    display: block;
+    width: 100%;
+  /*   padding: 0 20px; */
+  }
+  
+  @keyframes scrolling {
+    0% { transform: translateX(0); }
+    100% { transform: translatex(-144vw); }
+  }
+  .categories{
+    display: flex;
+    gap: 30%;
+    margin-left: 12%;
+    line-height: 192%;
+  }
+  .cat{
+    color: orange;
+    font-size: 185%;
+  }
+ .footer{
+  background-color: black;
+  color: wheat;
+  padding: 108px 195px;
+  text-align: center;
+ }
+ /* .icons{
+  width: 13%;
+  display: block;
+ } */
+  
